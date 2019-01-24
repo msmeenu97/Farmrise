@@ -1,0 +1,77 @@
+2019-01-24 16:54:39,138 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2019-01-24 16:54:39,148 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-01-24 16:54:39,149 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://0.0.0.0:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-01-24 16:54:39,161 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {}->http://0.0.0.0:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-24 16:54:39,162 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://0.0.0.0:4723
+2019-01-24 16:54:39,164 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to /0.0.0.0:4723
+2019-01-24 16:54:44,175 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.11.211:53337<->192.168.11.211:4723
+2019-01-24 16:54:44,175 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 10800000
+2019-01-24 16:54:44,176 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request POST /wd/hub/session HTTP/1.1
+2019-01-24 16:54:44,176 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2019-01-24 16:54:44,178 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Content-Length: 774
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Host: 0.0.0.0:4723
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)
+2019-01-24 16:54:44,181 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Content-Length: 774[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Host: 0.0.0.0:4723[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "{[\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "appPackage": "com.climate.farmrise",[\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "appActivity": "ccom.climate.farmrise/.language.view.LanguageActivity t161",[\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "platformName": "Android",[\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "deviceName": "device",[\n]"
+2019-01-24 16:54:44,182 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "app_APK": "/Users/reflex/eclipse-workspace/FarmTest/./app_APK/farmrise.apk"[\n]"
+2019-01-24 16:54:44,183 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  },[\n]"
+2019-01-24 16:54:44,186 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2019-01-24 16:54:44,186 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  "capabilities": {[\n]"
+2019-01-24 16:54:44,186 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2019-01-24 16:54:44,186 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "appPackage": "com.climate.farmrise",[\n]"
+2019-01-24 16:54:44,186 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "appActivity": "ccom.climate.farmrise/.language.view.LanguageActivity t161",[\n]"
+2019-01-24 16:54:44,186 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformName": "Android",[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "deviceName": "device",[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "app_APK": "/Users/reflex/eclipse-workspace/FarmTest/./app_APK/farmrise.apk"[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "      "platformName": "Android"[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    },[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "    "firstMatch": [][\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "  }[\n]"
+2019-01-24 16:54:44,187 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "}"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-24 16:54:51,853 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Content-Length: 2229[\r][\n]"
+2019-01-24 16:54:51,854 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "ETag: W/"8b5-mz31juJ3B5sizS7144g7U8vOws4"[\r][\n]"
+2019-01-24 16:54:51,854 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Date: Thu, 24 Jan 2019 11:24:51 GMT[\r][\n]"
+2019-01-24 16:54:51,854 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-01-24 16:54:51,854 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2019-01-24 16:54:51,854 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "{"value":{"error":"unknown error","message":"An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.climate.farmrise' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.climate.farmrise' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.ccom.climate.farmrise/.language.view.LanguageActivity t161' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity","stacktrace":"UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.climate.farmrise' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.climate.farmrise' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.ccom.climate.farmrise/.language.view.LanguageActivity t161' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)\n    at asyncHandler$ (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:404:37)\n    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)\n    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)\n    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)\n    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)"}}"
+2019-01-24 16:54:51,857 [DEBUG] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2019-01-24 16:54:51,857 [DEBUG] org.apache.http.headers  - http-outgoing-0 << X-Powered-By: Express
+2019-01-24 16:54:51,857 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Content-Length: 2229
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << ETag: W/"8b5-mz31juJ3B5sizS7144g7U8vOws4"
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Date: Thu, 24 Jan 2019 11:24:51 GMT
+2019-01-24 16:54:51,858 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Connection: keep-alive
+2019-01-24 16:54:51,863 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+2019-01-24 16:54:51,869 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection [id: 0][route: {}->http://0.0.0.0:4723] can be kept alive indefinitely
+2019-01-24 16:54:51,869 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {}->http://0.0.0.0:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
